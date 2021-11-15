@@ -1,0 +1,31 @@
+{
+  "name": "noxkiwi/stack",
+  "description": "I am the object stacking library of nox.kiwi.",
+  "version": "1.0.0",
+  "type": "package",
+  "license": "proprietary",
+  "keywords": [
+    "Stack",
+    "StackOf",
+    "Stacking"
+  ],
+  "homepage": "https://nox.kiwi/",
+  "time": "2020-07-01",
+  "authors": [
+    {
+      "name": "Jan Nox",
+      "email": "jan.nox@pm.me",
+      "homepage": "https://nox.kiwi",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "noxkiwi/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "noxkiwi\\stack\\": "backend/class/"
+    }
+  }
+}
