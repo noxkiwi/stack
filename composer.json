@@ -3,7 +3,7 @@
   "description": "I am the object stacking library of nox.kiwi.",
   "version": "1.0.0",
   "type": "package",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "Stack",
     "StackOf",
@@ -21,7 +21,7 @@
   ],
   "require": {
     "php": ">=8.0.0",
-    "noxkiwi/core": "*"
+    "noxkiwi/core": "dev-master"
   },
   "autoload": {
     "psr-4": {
