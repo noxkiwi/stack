@@ -93,11 +93,18 @@ class Stack implements StackInterface
         return $this;
     }
 
+    /**
+     * I will reset the entire stack by removing all elements.
+     */
     public function reset(): void
     {
         $this->elements = [];
     }
 
+    /**
+     * I will return all elements on the stack.
+     * @return array
+     */
     public function getAll(): array
     {
         return $this->elements;
