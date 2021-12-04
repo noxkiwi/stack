@@ -31,7 +31,7 @@ class Stack implements StackInterface
     /**
      * @inheritDoc
      */
-    public function current()
+    public function current(): mixed
     {
         return $this->elements[$this->position];
     }
